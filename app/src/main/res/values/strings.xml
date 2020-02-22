@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">BacisCalc</string>
+    <string name="enter_arg1">Enter arg1:</string>
+    <string name="enter_arg2">Enter arg2:</string>
+    <string name="result">Result:</string>
+    <string name="plus_sign">+</string>
+    <string name="subtr_sign">-</string>
+    <string name="mult_sign">*</string>
+    <string name="div_sign">/</string>
+    <string name="div_by_zero_error">Div by zero</string>
+    <string name="input_error">Input Error</string>
 </resources>
