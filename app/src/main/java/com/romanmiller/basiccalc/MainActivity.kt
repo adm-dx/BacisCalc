@@ -1,4 +1,4 @@
-package com.romanmiller.baciscalc
+package com.romanmiller.basiccalc
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
