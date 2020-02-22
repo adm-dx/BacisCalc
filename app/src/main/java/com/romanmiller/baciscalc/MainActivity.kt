@@ -1,6 +1,5 @@
 package com.romanmiller.baciscalc
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -24,11 +23,11 @@ class MainActivity : AppCompatActivity() {
                     "mul" -> answer.setText((x * y).toString())
                     "divide" -> {
                         if (y != 0) answer.setText((x.toDouble() / y).toString())
-                        else answer.setText("Div by zero")
+                        else answer.setText(R.string.div_by_zero_error)
                     }
                 }
             } catch (e: NumberFormatException) {
-                answer.setText("Input Error")
+                answer.setText(R.string.input_error)
             }
         }
 
